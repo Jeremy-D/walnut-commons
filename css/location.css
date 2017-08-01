@@ -1,0 +1,48 @@
+/*===============================
+
+frame content
+
+===============================*/
+#frame-content {
+	position: relative;
+	bottom:692px;
+	margin-bottom:-540px;
+	left:124px;
+	background-color:;
+	height:565px;
+	width:564px;
+
+}
+
+#frame-text h4 {
+	margin: 30px 0 0 30px;
+}
+
+#frame-list {
+	display: flex;
+	margin:20px 0 40px 100px;
+
+}
+
+#frame-list ul {
+	margin-right: 35px;
+}
+
+#frame-article {
+	background-color:;
+	height:811px;
+}
+
+#map-wrap {
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+
+#birds-eye{
+	width:811px;
+	margin:30px 0 30px 0;
+}
+
+
+

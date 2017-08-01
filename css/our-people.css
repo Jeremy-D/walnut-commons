@@ -1,0 +1,51 @@
+.profile {
+	display:flex;
+	justify-content: space-around;
+	margin:30px 0 0 0;
+
+}
+
+.profile img {
+	height:257px;
+}
+
+.profile-img-container {
+	background:;
+	margin-right:30px;
+	width:352px;
+}
+
+.profile-text {
+	position: relative;
+	top:-5px;
+	background-color:;
+}
+
+.profile-text h4 {
+	margin:0 0 10px 0;
+}
+
+.profile-text p {
+	width:420px;	
+}
+
+#hs {
+	height: 257
+}
+
+.article-wrap {
+	margin-left: 50px;
+
+}
+
+.profile-img-container {
+	background:;
+	margin-right:30px;
+	width:800px;
+}
+
+.prof-pic-width{
+	width:352px;
+	display:flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,60 @@
+h4 {
+	margin: 0 0 15px 0;
+}
+
+.news-article {
+	display:flex;
+	background-color: #ddd;
+	padding:10px;
+
+	align-items: center;
+}
+
+.children1 .news-article:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.children2 .news-article:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.children1 .news-article:hover,
+.children2 .news-article:hover
+ {
+	background-color: #ccc;
+}
+
+.news-article a {
+	margin:20px 0px 0 0;
+	cursor: pointer;
+}
+
+.source-date {
+	font-size:.875rem;
+	color:#333;
+	width:200px;
+	background:;
+	border-right:1px solid #111;
+}
+
+.history-p p {
+	margin:0 0 0 20px;
+	width:400px;
+}
+
+a {
+	text-decoration:;
+}
+
+span {
+	
+}
+
+.news-article h5 {
+	width:60%;
+	margin: 0 0 0 20px;
+
+}
+
+
+
