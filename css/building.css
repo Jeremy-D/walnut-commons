@@ -34,3 +34,35 @@ h5 {
 	width:100%;
 
 }
+
+/*===============================
+
+responsive
+
+===============================*/
+
+@media only screen and (max-width: 900px) {
+	.building-content-container {
+		width:600px;
+	}
+}
+
+@media only screen and (max-width: 820px) {  
+}
+
+
+@media only screen and (max-width: 700px) {	
+}
+
+@media only screen and (max-width: 610px) {
+	.building-content-container {
+		width:300px;
+		flex-direction: column;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+}

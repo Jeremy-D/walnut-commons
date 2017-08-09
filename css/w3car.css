@@ -2,13 +2,32 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   position: relative;
-  margin: auto;
+  height:90%;
+  background:;
+  margin:0 auto;
 }
 
 .mySlides {
     display: none;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.mySlides img {
+  height:100%;
+  width:60%;
+}
+
+.img-center {
+  height:100%;
+
+  background:;
+  display: flex;
+  justify-content: center;
 }
 
 /* Next & previous buttons */

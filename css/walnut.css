@@ -29,6 +29,15 @@ reset
 general
 
 ===============================*/
+h1 {
+	font-family:'EB Garamond', Garamond, serif ;
+	font-size: 4rem;
+	line-height:;
+}
+
+h2 {
+	font-family:'EB Garamond', Garamond, serif;
+}
 h3 {
 	line-height: 50px;
 	font-size: 2rem;
@@ -50,13 +59,38 @@ button:hover {
 }
 
 a{
-	
 	color:#addbc0;
 	color:teal;
 	color:#99ffcc;
 	color:#3da844;
 }
+.walnut-logo {
+	display: flex;
+	padding: 20px 20px 20px 33px;
+	border-top: 1px solid #111;
+	border:1px solid #333;
+	border-radius: 5px 5px 0 0;
+	border-bottom:none;
+	margin-bottom: 20px;
+	background-color: white;
+	margin: 20px 50px 0px 50px;
+	justify-content: ;
+	align-items:;
+}
+.walnut-logo img {
+	height:175px;
+	background:;
+}
 
+.walnut-logo h2 {
+	margin-left: 10px; 
+}
+
+.logo-text {
+	background:;
+	padding-top: 15px;
+	margin-left: 25px;
+}
 /*select {
 	height:80px;
 }*/
@@ -69,8 +103,6 @@ body
 body {
 	background-color: #d5f4e6;
 }
-
-
 
 /*===============================
 
@@ -93,8 +125,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 	height:500px;
-	display: flex;
-	justify-content: center;
+	display: block;
 }
 
 header img {
@@ -106,60 +137,13 @@ header img {
 
 /*===============================
 
-nav
-
-===============================*/
-
-/*nav {
-	height:100px;
-	background-color: black;
-	display:flex;
-	color:white;
-	overflow: hidden;
-}
-
-.nav-el {
-	font-size: 1rem;
-	background: #222;
-	border-right:1px solid #fff;
-	height:100%;
-	flex:1;
-	cursor: pointer;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-
-}*/
-
-/*.nav-el:nth-child(1){
-	flex-grow: 2;
-}
-
-.nav-el:nth-child(9){
-	border:none;
-}
-
-.nav-el:hover {
-	background:#777
-}
-
-.drop-el {
-	display:none;
-}
-
-.drop-el:hover {
-	display:block;
-}*/
-
-/*===============================
-
 dropdown
 
 ===============================*/
 
 .container {
     overflow: hidden;
-    background-color: #333;
+    background-color: #777;
     font-family: Arial;
     margin:;
 }
@@ -183,8 +167,13 @@ dropdown
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding:14px 16px;
     background-color: inherit;
+}
+
+.dropbtn a {
+	padding: 0;
+
 }
 
 .container a:hover, .dropdown:hover .dropbtn {
@@ -286,3 +275,93 @@ footer {
 	height: 100px;
 	background-color: #4aba5b;
 }
+
+
+/*===============================
+
+media queries-general
+
+===============================*/
+
+@media only screen and (max-width: 900px) {
+    header {
+    	height:400px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    h1 {
+    	line-height: 4rem;
+    }
+
+    header {
+    	height:300px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+	header {
+		height:200px;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	article {
+		margin:20px;
+	}
+	h1 {
+		line-height: 3rem;
+	}
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	p {
+		width:250px;
+		text-align:;
+	}
+
+	h3 {
+		width:300px;
+	}
+
+	h4 {
+		width:300px;
+	}
+
+	header {
+		display: none;
+	}
+
+	.walnut-logo {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.walnut-logo img {
+		padding-left: 15px;
+	}
+
+	.walnut-logo {
+		margin:0;
+	}
+	.container {
+		margin:0;
+	}
+	aside {
+		display:none;
+	}
+
+	section {
+		margin:0;
+	}
+	footer {
+		width:100%;
+		margin:0;
+	}
+}
+

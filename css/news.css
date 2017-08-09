@@ -56,5 +56,46 @@ span {
 
 }
 
+/*===============================
+
+responsive
+
+===============================*/
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 820px) {
+	.news-article {
+		flex-direction: column-reverse;
+
+	}
+}
+
+@media only screen and (max-width: 700px) {	
+}
+
+@media only screen and (max-width: 610px) {
+}
+
+@media only screen and (max-width: 500px) {
+	.history-p {
+		width:250px;
+	}
+
+	.history-p p{
+		background:;
+		width:250px;
+	}
+
+	.news-article {
+		align-items:flex-start;
+		width:300px;
+	}
+	.source-date {
+		margin-left:20px;
+		border-right:none;
+	}
+}
 
 
